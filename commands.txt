@@ -1,0 +1,24 @@
+1.  a git egy verziókezelő rendszer, a github pedig egy online adattár git-es adatoknak
+2. a commit-al mentünk, fontos hogy beszédes legyen, a változtatások követése miatt fontos.
+3. egy munka-ág, ha több ember csinál más feladatokat, vagy részeket egy kódból, vagy egyedül dolgozol de több részletben szeretnéd csinálni a munkád akkor megteheted és a végén egy merge-el egy nagy egészbe összerakhatod.
+
+
+
+commands:
+$ git config --global user.name "bagonyidori"
+ $ git config --global user.email "dori.bagonyi@gmail.com"
+$ git clone https://github.com/bagonyidori/tzrepo.git
+$ cd tzrepo
+$ git init
+$ git add *
+$ git commit -a -m "readme text"
+$ git checkout -b feature
+$ git commit -a -m "readme feature changes"
+$ git checkout main
+$ git merge feature
+$ git push
+
+--> állítólag semmire sem adott innen hibát még mergelésnél és push-nál sem!
+ 
+
+
